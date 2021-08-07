@@ -29,10 +29,13 @@ API Index
 
 .. currentmodule:: code_examples
 
-.. autosummary::
+.. autosummary::  reST_docstrings_example.MainClass1
    :toctree: _autosum2
 
-   reST_docstrings_example.MainClass1
+
+   ..  autoclasstoc::
+
+
 
 
 
