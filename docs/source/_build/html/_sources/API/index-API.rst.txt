@@ -9,6 +9,11 @@ API Index
 =========
 
 .. toctree::
+   :titlesonly:
+
+   reST-literalinclude
+
+.. toctree::
    :maxdepth: 2
    :caption: Contents:
 
