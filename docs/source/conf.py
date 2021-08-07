@@ -34,6 +34,7 @@ author = "Mark"
 extensions = [  "sphinx.ext.autodoc",
                 "sphinx.ext.autosummary",
                 "sphinx_copybutton",
+                "sphinx_inline_tabs",
             ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -76,3 +77,4 @@ copybutton_prompt_is_regexp = True
 # -O books/bash_guide.pdf
 # is correctly pasted with the following setting
 copybutton_line_continuation_character = "\\"
+
