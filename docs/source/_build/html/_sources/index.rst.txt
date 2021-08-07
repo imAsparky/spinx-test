@@ -10,22 +10,24 @@ Welcome to Testing Sphinx's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-.. currentmodule:: sphinx
-
-.. autosummary::
-   :toctree: _autosummary
-
-   environment.BuildEnvironment
-   util.relative_uri
+   API/index-API
 
 
-.. currentmodule:: code_examples
+.. .. currentmodule:: sphinx
 
-.. autosummary::
-   :toctree: _autosum2
+.. .. autosummary::
+..    :toctree: _autosummary
 
-   reST_docstrings_example.MainClass1
+..    environment.BuildEnvironment
+..    util.relative_uri
+
+
+.. .. currentmodule:: code_examples
+
+.. .. autosummary::
+..    :toctree: _autosum2
+
+..    reST_docstrings_example.MainClass1
 
 
 
