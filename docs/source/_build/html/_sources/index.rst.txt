@@ -23,8 +23,10 @@ Welcome to Testing Sphinx's documentation!
 .. currentmodule:: code_examples
 
 .. autosummary::
+   :toctree: _autosum2
 
    reST_docstrings_example.MainClass1
+
 
 
 
