@@ -79,3 +79,23 @@ copybutton_prompt_is_regexp = True
 # is correctly pasted with the following setting
 copybutton_line_continuation_character = "\\"
 
+
+autodoc_default_options = {
+    'members': True,
+    'special-members': True,
+    'private-members': True,
+    'inherited-members': True,
+    'undoc-members': True,
+    'exclude-members': '__weakref__',
+}
+
+
+autosummary_generate = True
+
+autoclasstoc_sections = [
+        'public-attrs',
+        'public-methods',
+        'private-attrs',
+        'private-methods',
+]
+

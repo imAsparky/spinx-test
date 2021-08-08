@@ -13,27 +13,26 @@ API Index
 
    reST-literalinclude
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. currentmodule:: sphinx
 
 .. autosummary::
    :toctree: _autosummary
+   :caption: Sphinx Documentationser
+   :recursive:
 
    environment.BuildEnvironment
    util.relative_uri
 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. currentmodule:: code_examples
 
 .. autosummary::  reST_docstrings_example.MainClass1
    :toctree: _autosum2
+   :recursive:
 
-
-   ..  autoclasstoc::
 
 
 
