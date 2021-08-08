@@ -33,6 +33,10 @@ API Index
    :toctree: _autosum2
    :recursive:
 
+.. autosummary::  simple_calculators_example
+   :toctree: _autosum2
+   :recursive:
+
 
 
 
