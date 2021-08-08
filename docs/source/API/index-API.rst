@@ -29,13 +29,18 @@ API Index
 
 .. currentmodule:: code_examples
 
-.. autosummary::  reST_docstrings_example.MainClass1
+.. autosummary::
    :toctree: _autosum2
    :recursive:
 
-.. autosummary::  simple_calculators_example
-   :toctree: _autosum2
-   :recursive:
+   reST_docstrings_example.MainClass1
+   simple_calculators_example
+
+.. .. currentmodule:: code_examples
+
+.. .. autosummary::
+..    :toctree: _autosum2
+..    :recursive:
 
 
 
