@@ -13,10 +13,11 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath("../.."))
+sys.path.append(os.path.abspath("../.."))
+# sys.path.insert(0, os.path.abspath(".."))
 
 # print("***********\nExecutable\n", sys.executable)
-print("\nPATHS\n", sys.path, "\n***********\n")
+# print("\nPATHS\n", sys.path, "\n***********\n")
 
 
 # -- Project information -----------------------------------------------------
@@ -31,13 +32,14 @@ author = "Mark"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [  "sphinx.ext.autodoc",
-                "sphinx.ext.autosummary",
-                "sphinx_copybutton",
-                "sphinx_inline_tabs",
-                "autoclasstoc_2",
-                "sphinx.ext.todo",
-            ]
+extensions = [
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx_copybutton",
+    "sphinx_inline_tabs",
+    "sphinx.ext.todo",
+    "sphinxclasstocr",
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
@@ -70,7 +72,9 @@ html_static_path = ["_static"]
 # config options are here https://sphinx-copybutton.readthedocs.io/en/latest/
 # This config removes Python Repl + continuation, Bash line prefixes,
 # ipython and qtconsole + continuation, jupyter-console + continuation and preceding line numbers
-copybutton_prompt_text = r"^\d|^.\d|^\d\d|^\d\d\d|>>> |\.\.\. |\$ |In \[\d*\]: | {2,5}\.\.\.: | {5,8}: "
+copybutton_prompt_text = (
+    r"^\d|^.\d|^\d\d|^\d\d\d|>>> |\.\.\. |\$ |In \[\d*\]: | {2,5}\.\.\.: | {5,8}: "
+)
 copybutton_prompt_is_regexp = True
 
 # datalad download-url http://www.tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf \
@@ -82,21 +86,20 @@ copybutton_line_continuation_character = "\\"
 
 
 autodoc_default_options = {
-    'members': True,
-    'special-members': True,
-    'private-members': True,
-    'inherited-members': True,
-    'undoc-members': True,
-    'exclude-members': '__weakref__',
+    "members": True,
+    "special-members": True,
+    "private-members": True,
+    "inherited-members": True,
+    "undoc-members": True,
+    "exclude-members": "__weakref__",
 }
 
 
 autosummary_generate = True
 
-autoclasstoc_sections = [
-        'public-attrs',
-        'public-methods',
-        'private-attrs',
-        'private-methods',
+spinxclasstocr_sections = [
+    "public-attrs",
+    "public-methods",
+    "private-attrs",
+    "private-methods",
 ]
-

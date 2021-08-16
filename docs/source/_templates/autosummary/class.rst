@@ -10,4 +10,4 @@
    :inherited-members:
    :show-inheritance:
 
-   .. autoclasstoc::
+   .. sphinxclasstocr::
