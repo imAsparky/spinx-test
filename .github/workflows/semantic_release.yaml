@@ -15,7 +15,7 @@ jobs:
     release_auto:
         if: |
          github.event.pull_request.merged == true || 
-         github.event.workflow_dispatch == true
+         github.event.workflow_dispatch
         runs-on: ubuntu-latest
 
         steps:
