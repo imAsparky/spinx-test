@@ -14,8 +14,9 @@ concurrency:
 jobs:
     release_auto:
         if: |
-         github.event.pull_request.merged == true || 
-         github.event.workflow_dispatch
+         github.event.workflow_dispatch ||
+         github.event.pull_request.merged == true
+         
         runs-on: ubuntu-latest
 
         steps:
