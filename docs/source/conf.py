@@ -16,6 +16,9 @@ import sys
 sys.path.append(os.path.abspath("../.."))
 # sys.path.insert(0, os.path.abspath(".."))
 
+# Updated with python-semantic-release
+__version__ = "0.0.0"
+
 # print("***********\nExecutable\n", sys.executable)
 # print("\nPATHS\n", sys.path, "\n***********\n")
 
@@ -25,6 +28,11 @@ sys.path.append(os.path.abspath("../.."))
 project = "Testing Sphinx"
 copyright = "2021, Mark"
 author = "Mark"
+
+# The short X.Y version.
+version = __version__
+# The full version, including alpha/beta/rc tags.
+release = __version__
 
 
 # -- General configuration ---------------------------------------------------
