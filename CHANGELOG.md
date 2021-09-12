@@ -3,6 +3,9 @@
 <!--next-version-placeholder-->
 
 ## v0.1.0 (2021-09-12)
+
+
+## v0.1.0 (2021-09-12)
 ### Feature
 * **version:** Add semantic-release config ([`2708ccf`](https://github.com/imAsparky/spinx-test/commit/2708ccf4f0642051c303ec14a900e1c83b483adb))
 * **version:** Add semantic-release config file ([`3ce4fc7`](https://github.com/imAsparky/spinx-test/commit/3ce4fc714f5795e5ca356c4905b6a7cc391093b4))
