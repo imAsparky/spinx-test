@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.1 (2021-09-13)
+### Fix
+* **version:** Fix typo in workflow ([`b66ed17`](https://github.com/imAsparky/spinx-test/commit/b66ed17871b0fd049f2cb1d167b618d97142a2ce))
+
 ## v0.1.0 (2021-09-12)
 
 
