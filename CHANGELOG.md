@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## Unreleased
+
+Changes unreleased.
+
+### Chore
+
+- version:
+  - Update  commit_subject ([a071474](https://github.com/imAsparky/spinx-test/commit/a071474f958a8d4ef570dcff6ca57a67fdaaab83)) ([#5](https://github.com/imAsparky/spinx-test/pull/5))
+
 ## [v0.1.1](https://github.com/imAsparky/spinx-test/releases/tag/v0.1.1) - 2021-09-13 00:38:39
 
 ### Fix
