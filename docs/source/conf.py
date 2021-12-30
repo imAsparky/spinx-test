@@ -17,7 +17,7 @@ sys.path.append(os.path.abspath("../.."))
 # sys.path.insert(0, os.path.abspath(".."))
 
 # Updated with python-semantic-release
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 # print("***********\nExecutable\n", sys.executable)
 # print("\nPATHS\n", sys.path, "\n***********\n")
