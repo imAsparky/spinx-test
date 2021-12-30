@@ -1,3 +1,0 @@
-# spinx-test
-
-VERSION {version}
